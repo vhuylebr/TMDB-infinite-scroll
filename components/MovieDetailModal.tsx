@@ -1,5 +1,5 @@
-import React, { FC, useEffect, useState } from "react";
-import { Modal, Image, Header, Flag, Statistic, Placeholder } from "semantic-ui-react";
+import React, { FC, useEffect } from "react";
+import { Modal, Image, Header, Statistic, Placeholder } from "semantic-ui-react";
 import { useModal } from "../store/Modal/selectors";
 import { useDispatch } from "react-redux";
 import { closeMovieDetailModal } from "../store/Modal/actions";
